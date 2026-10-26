@@ -63,7 +63,7 @@ describe('fetchWithTimeout', () => {
   });
 
   it('clears the timer when the request succeeds (no leaked timers)', async () => {
-    const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout');
+    const clearTimeoutSpy = vi.spyOn(globalThis, 'clearTimeout');
     const mockResponse = new Response('ok', { status: 200 });
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue(mockResponse));
 
@@ -75,7 +75,7 @@ describe('fetchWithTimeout', () => {
   });
 
   it('clears the timer even when the request fails', async () => {
-    const clearTimeoutSpy = vi.spyOn(global, 'clearTimeout');
+    const clearTimeoutSpy = vi.spyOn(globalThis, 'clearTimeout');
     const networkError = new TypeError('Network error');
     let rejectFetch: (reason: unknown) => void;
     vi.stubGlobal(

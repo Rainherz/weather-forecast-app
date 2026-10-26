@@ -1,0 +1,60 @@
+/**
+ * App.module.css — layout styles for the root App component.
+ *
+ * Colour decisions:
+ *   Light: --text-h (#08060d) on --bg (#fff) → contrast ≈ 19:1 (WCAG AAA)
+ *   Dark:  --text-h (#f3f4f6) on --bg (#16171d) → contrast ≈ 16:1 (WCAG AAA)
+ * Both exceed the 4.5:1 minimum required by WCAG 2.1 SC 1.4.3.
+ *
+ * Requirements: 6.2, 6.4
+ */
+
+/* ── Outer wrapper ─────────────────────────────────────────────────────────── */
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  box-sizing: border-box;
+}
+
+/* ── Header ────────────────────────────────────────────────────────────────── */
+
+.header {
+  padding: 32px 24px 24px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  /* Overrides the global h1 margin/sizing for a compact header */
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--text-h);
+  margin: 0;
+
+  @media (max-width: 640px) {
+    font-size: 1.5rem;
+  }
+}
+
+/* ── Main content ──────────────────────────────────────────────────────────── */
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 24px 48px;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  @media (max-width: 640px) {
+    padding: 24px 16px 40px;
+    gap: 16px;
+  }
+}

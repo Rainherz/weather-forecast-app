@@ -1,4 +1,4 @@
-import { WeatherError } from '../types/index.ts';
+import type { WeatherError } from '../types/index.ts';
 
 /**
  * Validates a raw city name string entered by the user.

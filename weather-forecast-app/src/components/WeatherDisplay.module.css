@@ -1,0 +1,66 @@
+/* WeatherDisplay — grid layout for weather data cards */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+/* City heading */
+.cityHeading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-h, #1a1a1a);
+  margin: 0;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.countryLabel {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-muted, #6b7280);
+}
+
+/* Cards grid — three equal columns on wide screens, one column on narrow */
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Individual card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 1.25rem 1rem;
+  background-color: var(--accent-bg, rgba(170, 59, 255, 0.08));
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 10px;
+}
+
+.cardLabel {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted, #6b7280);
+  margin: 0;
+}
+
+.cardValue {
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--text-h, #1a1a1a);
+  margin: 0;
+  /* Tabular numbers keep the layout stable as values change */
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}

@@ -1,0 +1,404 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Inicializar el proyecto Vite + React 18 + TypeScript y estructurar los directorios": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792453
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983798681
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984562291
+      }
+    ],
+    "1.2 Definir todas las interfaces y tipos TypeScript en `src/types/index.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792592
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983801026
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984564753
+      }
+    ],
+    "2.1 Implementar `src/utils/fetchWithTimeout.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792700
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984569712
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984657754
+      }
+    ],
+    "2.3 Implementar `src/utils/inputValidator.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792765
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984571954
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984660834
+      }
+    ],
+    "2.7 Implementar `src/utils/formatters.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792809
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984574127
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984662985
+      }
+    ],
+    "3. Checkpoint — Verificar utilidades base": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792874
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985102461
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985235311
+      }
+    ],
+    "4.1 Implementar `src/services/geocodingClient.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792913
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984668081
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985092266
+      }
+    ],
+    "4.4 Implementar `src/services/forecastClient.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792962
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984670248
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985094935
+      }
+    ],
+    "5. Checkpoint — Verificar capa de datos": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983792998
+      },
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985242403
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985967151
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985975540
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986076159
+      }
+    ],
+    "6.1 Implementar `src/services/weatherService.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793038
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986086083
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986122429
+      }
+    ],
+    "6.3 Implementar el hook `src/hooks/useWeather.ts`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793077
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986125158
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986224200
+      }
+    ],
+    "7.1 Implementar `src/components/LoadingSpinner.tsx`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793117
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986227439
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986630420
+      }
+    ],
+    "7.2 Implementar `src/components/ErrorMessage.tsx`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793159
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986230245
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986632863
+      }
+    ],
+    "7.3 Implementar `src/components/WeatherForm.tsx`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793196
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986232774
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986635466
+      }
+    ],
+    "7.4 Implementar `src/components/WeatherDisplay.tsx` con sus sub-componentes": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793244
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986235242
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986638351
+      }
+    ],
+    "8.1 Implementar `src/App.tsx`": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793286
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986641240
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987094499
+      }
+    ],
+    "8.2 Verificar contraste de color y estilos de accesibilidad en `App.css` / módulos CSS": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793323
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986644096
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987097521
+      }
+    ],
+    "9. Checkpoint — Verificar componentes e integración": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793362
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987100891
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987240194
+      }
+    ],
+    "10.1 Configurar MSW con handlers para los dos endpoints de Open-Meteo": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793399
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987243017
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987323559
+      }
+    ],
+    "11. Checkpoint final — Todos los tests deben pasar": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792983793436
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987326617
+      },
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987925291
+      }
+    ],
+    "1. Configurar el proyecto y definir los tipos compartidos": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984564790
+      }
+    ],
+    "2. Implementar utilidades base": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792984663033
+      }
+    ],
+    "4. Implementar la capa de datos (API clients)": [
+      {
+        "executionId": "c61fd3a9-a607-4a5b-b129-cef85873803c",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792985095142
+      }
+    ],
+    "6. Implementar la lógica de negocio": [
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986224248
+      }
+    ],
+    "7. Implementar los componentes UI": [
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792986638394
+      }
+    ],
+    "8. Integrar todo en `App.tsx` y `main.tsx`": [
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987097568
+      }
+    ],
+    "10. Implementar tests de integración con MSW": [
+      {
+        "executionId": "41fa4cc8-2abb-4779-9b79-115f463c684d",
+        "chatSessionId": "sess_bc4ce5c7-97fe-49e0-a07d-5d101ade118e",
+        "timestamp": 1792987323611
+      }
+    ]
+  }
+}
